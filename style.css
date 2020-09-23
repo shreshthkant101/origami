@@ -101,7 +101,7 @@ footer {
 .box {
     width: 520px;
     height: 360px;
-    background: white;
+    background: linear-gradient(to bottom right,aqua,navy);
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
