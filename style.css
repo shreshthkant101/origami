@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -48,10 +49,12 @@
     width: 250px;
     height: 170px;
     box-shadow: 0px 0px 10px grey;
+    position: relative;
 }
 
 .imgs:hover {
-    opacity: 0.8;
+    opacity: 0.9;
+    transform: scale(1.1);
 }
 
 .hdss {
@@ -96,7 +99,7 @@ footer {
 
 .box {
     width: 520px;
-    height: 360px;
+    height: 280px;
     background: url('wood.jpg');
     background-size: cover;
     background-position: center;
@@ -111,8 +114,21 @@ footer {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     margin-top: 57px;
+    font-size: 50px;
 }
 
 li {
     margin-left: 10px;
+}
+
+.ttls {
+    position: absolute;
+    margin-top: -100px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(0, 0, 253);
+    transition: 0.7s;
+    opacity: 0;
+    font-family: 'Spectral SC', serif;
 }
